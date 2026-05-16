@@ -74,6 +74,12 @@ Extract the project zip file and open the `Chatapp` folder in IntelliJ IDEA via 
 3. Under **Environment Variables**, add:
    - Name: `GROQ_API_KEY`
    - Value: your actual Groq API key
+   - > ⚠️ The AI Assistant requires a Groq API key to work.
+> To enable the AI feature:
+> 1. Create a free account at https://console.groq.com and generate an API key
+> 2. In IntelliJ go to **Run → Edit Configurations → Main → Environment Variables**
+> 3. Add: `GROQ_API_KEY` = your actual key
+     > Without this step the app still works normally — the AI will just respond with "unavailable."
 
 > ⚠️ Never hardcode your API key in the source code. Always use environment variables.
 
