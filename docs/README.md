@@ -6,7 +6,7 @@ A real-time chat application built with Java, featuring multi-client support, fi
 
 ## 🗺️ Project Architecture
 
-![Dependency Map]("C:\Users\mhmou\IdeaProjects\Chatapp\docs\Java-dependency-map.png")
+![Dependency Map](docs/Java-dependency-map.png)
 
 The project is divided into four layers:
 - **Frontend (UI)** — JavaFX screens handling all user interaction
