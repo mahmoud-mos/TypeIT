@@ -180,7 +180,7 @@ public class ChatScreen implements MessageListener.MessageCallback {
 
         // Only show name label if not a system message
         if (!isSystem) {
-            Label nameLabel = new Label((isMine ? "  You" : senderName) + "  " + java.time.LocalTime.now().format(java.time.format.DateTimeFormatter.ofPattern("HH:mm")));
+            Label nameLabel = new Label((isMine ? "  You" : senderName) + "  " + java.time.LocalTime.now().format(java.time.format.DateTimeFormatter.ofPattern("hh:mm a")));
             nameLabel.setStyle("-fx-text-fill: #ffffff; -fx-font-size: 11px; -fx-font-weight: bold;");
             messageContainer = new VBox(3, nameLabel, bubble);
         } else {

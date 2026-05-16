@@ -8,7 +8,7 @@ public class ChatApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("💬 TypeIT");
+        primaryStage.setTitle("💬 TypeIT ");
         primaryStage.setResizable(false);
 
         // Start at the login screen
