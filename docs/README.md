@@ -1,6 +1,12 @@
-# 💬 ChatApp — Real-Time Multi-Client Chat Application
+# 💬 TypeIT - Real-Time Multi-Client Chat Application
 
 A real-time chat application built with Java, featuring multi-client support, file and image sharing, an AI assistant, and a modern JavaFX UI. Built as a Final Course Project for Advanced Programming at EJUST.
+
+---
+
+## 📱 Application Interface & Features Preview
+
+![TypeIT Feature Preview](TypeIT-app-preview.png)
 
 ---
 
